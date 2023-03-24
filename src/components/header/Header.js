@@ -44,8 +44,8 @@ const Header = () => {
                     <button type={"submit"}>Поиск</button>
                 </form>
                 <div className={headerStyle.changeLanguage}>
-                    <span className={headerStyle.grayColorText}>РУ</span>
                     <button>
+                        <span className={headerStyle.grayColorText}>РУ</span>
                         <img src={downArrow} alt=""/>
                     </button>
                 </div>
@@ -75,6 +75,14 @@ const Header = () => {
                     </a>
                 </div>
             </nav>
+            <div className={headerStyle.headerBottomTabs}>
+                <a href="#">Акции и Скидки</a>
+                <a href="#">Кэшбек</a>
+                <a href="#">Электроника</a>
+                <a href="#">Одежда</a>
+                <a href="#">Спортивные товары</a>
+                <a href="#">Умный дом</a>
+            </div>
         </header>
     );
 };

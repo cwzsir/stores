@@ -1,0 +1,73 @@
+.filterBody{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 300px;
+}
+
+form p{
+    font-weight: bold;
+}
+
+.fromTo input{
+    margin-right: 8px;
+    width: 122px;
+    height: 40px;
+    text-align: center;
+}
+
+.radioFilter{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px
+}
+
+.radioFilter div{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.radioFilter label{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.checkboxFilter{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px
+}
+
+.checkboxFilter div{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.checkboxFilter button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    margin-top: 12px;
+    color: #999999;
+}
+
+.checkboxFilter label{
+    display: flex;
+    flex-direction: row;
+    row-gap: 15px;
+}
+
+.partPaying{
+    margin-top: 15px;
+}
+
+.colorChoice button{
+    border: none;
+    background: none;
+}

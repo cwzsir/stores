@@ -76,18 +76,16 @@
     font-size: 15px;
 }
 
-.changeLanguage{
+.changeLanguage button{
     display: flex;
+    align-items: center;
     size: 16px;
     gap: 8px;
-}
-
-.changeLanguage button{
     background: none;
     border: none;
 }
 
-.headerAccount{
+.headerAccount {
     background: none;
     border: none;
     display: flex;
@@ -104,7 +102,7 @@
     color: #F58735;
 }
 
-.headerFavorites{
+.headerFavorites {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,4 +133,19 @@
 
 .headerBasket:hover span{
     color: #F58735;
+}
+
+.headerBottomTabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 24px;
+    gap: 50px;
+    margin-top: 20px
+}
+
+.headerBottomTabs a{
+    color: #2B2B2B;
+    text-decoration: none;
+    font-size: 15px;
 }
