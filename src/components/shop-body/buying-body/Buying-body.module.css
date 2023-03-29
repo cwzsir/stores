@@ -1,0 +1,191 @@
+.buyingBodyContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 1170px;
+    max-height: 1570px;
+    margin-top: 24px;
+;
+}
+
+.buyingBodyPostProductInformation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 728.03px;
+    height: 229px;
+    margin-right: 74px;
+}
+
+.buyingBodyPostFavorites{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 16px;
+    top: 203px;
+    width: 24px;
+    height: 24px;
+}
+
+.buyingBodyPostFavorites img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyingBodyPost{
+    display: flex;
+    position: relative;
+    max-width: 1170px;
+    max-height: 245px;
+    border: 1px #F5F5F5 solid;
+}
+
+.buyingBodyPostImageChange{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 49px 18px 33px;
+}
+
+.buyingBodyPostImage img{
+    width: 194px;
+    height: 220px;
+}
+
+.buyingBodyPostDots{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 4px;
+    width: 4px;
+    height: 4px;
+    top: 217px;
+    left: 111px;
+}
+
+.buyingBodyPostDescription > p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #383838 ;
+}
+
+.buyingBodyPostCashback{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #F58735;
+    font-size: 14px;
+}
+
+.buyingBodyPostCharacteristic{
+    font-size: 12px;
+    color: #383838;
+}
+
+.buyingBodyPostProductColor{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.buyingBodyPostColorChoice{
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.buyingBodyPostColorNotChoice{
+    width: 12px;
+    height: 12px;
+}
+
+.buyingBodyPostPrice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.buyingBodyPostPrice span{
+    color: #AAADB2;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.buyingBodyPostPrice span ~ span{
+    color: white;
+    text-decoration: none;
+    background-color: #3BC13D;
+    border-radius: 4px;
+    padding: 1px 3px 1px 2px;
+    font-size: 10px;
+}
+
+.buyingBodyPostRating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.buyingBodyPostProductInStock{
+    color: #3BC13D;
+    font-size: 14px;
+}
+
+.buyingBodyPostSeller{
+    font-size: 14px;
+}
+
+.buyingBodyPostSeller span ~ span{
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+.buyingBodyPostFreeDelivery{
+    font-size: 14px;
+    color: #3BC13D;
+}
+
+.buyingBodyPostBasketButton{
+    background: #F58735;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 184px;
+    height: 36px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buyingBodyChangePageButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyingBodyChangePageButton button{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: none;
+    border: none;
+    color: #A0AEC0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22.4px;
+}
+
+.buyingBodyChangePageButton button:hover{
+    background: #73B9FF1a;
+    color: #4268B0;
+}

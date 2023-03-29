@@ -2,11 +2,20 @@
     display: flex;
     flex-direction: column;
     row-gap: 8px;
-    width: 300px;
+    min-width: 300px;
 }
 
-form p{
+.filterBody form p{
     font-weight: bold;
+}
+
+.filterBody form label{
+    color: #212121;
+}
+
+.filterBodyMain{
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .fromTo input{

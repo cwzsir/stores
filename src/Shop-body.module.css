@@ -1,5 +1,10 @@
 .shopBody{
     display: flex;
+    justify-content: center;
     padding: 0 20px;
     margin-top: 24px;
+}
+
+.buyBody{
+    width: 1310px;
 }

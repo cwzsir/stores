@@ -7,7 +7,7 @@ import mapPin from "../../icon/mapPin.svg"
 import search from "../../icon/search.svg"
 import downArrow from "../../icon/downArrow.svg"
 import account from "../../icon/account.svg"
-import favorites from "../../icon/favorites.svg"
+import favorites from "../../icon/favoritesIcon.svg"
 import basket from "../../icon/basket.svg"
 
 const Header = () => {
@@ -18,12 +18,14 @@ const Header = () => {
                 <p>Iphone 14 pro max</p>
                 <img src={headerSuggestionTwo} alt=""/>
             </div>
+
             <nav className={headerStyle.navBar}>
                 <div>
                     <a href="#">
                         <img src={logo} alt=""/>
                     </a>
                 </div>
+
                 <div className={headerStyle.headerLocation}>
                     <img src={mapPin} alt=""/>
                     <div>
@@ -31,6 +33,7 @@ const Header = () => {
                         <span className={headerStyle.grayColorText}>ул.Токтогула 187</span>
                     </div>
                 </div>
+
                 <div>
                     <a className={headerStyle.linkDecoration} href="#">
                         <button className={headerStyle.headerButton}>
@@ -39,16 +42,19 @@ const Header = () => {
                         </button>
                     </a>
                 </div>
+
                 <form className={headerStyle.headerSearch}>
                     <input type="text" placeholder={"Смартфоны"}/>
                     <button type={"submit"}>Поиск</button>
                 </form>
+
                 <div className={headerStyle.changeLanguage}>
                     <button>
                         <span className={headerStyle.grayColorText}>РУ</span>
                         <img src={downArrow} alt=""/>
                     </button>
                 </div>
+
                 <div >
                     <a className={headerStyle.linkDecoration} href="#">
                         <button className={headerStyle.headerAccount}>
@@ -58,6 +64,7 @@ const Header = () => {
                         </button>
                     </a>
                 </div>
+
                 <div>
                     <a className={headerStyle.linkDecoration} href="#">
                         <button className={headerStyle.headerFavorites}>
@@ -66,6 +73,7 @@ const Header = () => {
                         </button>
                     </a>
                 </div>
+
                 <div>
                     <a className={headerStyle.linkDecoration} href="#">
                         <button className={headerStyle.headerBasket}>
@@ -75,6 +83,7 @@ const Header = () => {
                     </a>
                 </div>
             </nav>
+
             <div className={headerStyle.headerBottomTabs}>
                 <a href="#">Акции и Скидки</a>
                 <a href="#">Кэшбек</a>

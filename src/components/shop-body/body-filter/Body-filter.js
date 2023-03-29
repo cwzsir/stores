@@ -1,29 +1,29 @@
 import React from 'react';
 import bodyFilterStyle from "./Body-filter.module.css"
-import deliveryFastTime from "../../icon/deliveryFastTime.svg"
-import darkDownArrow from "../../icon/darkDownArrow.svg"
-import yellow from "../../icon/colorChoice/yellow.svg"
-import rubberDuckyYellow from "../../icon/colorChoice/rubberDuckyYellow.svg"
-import beige from "../../icon/colorChoice/beige.svg"
-import white from "../../icon/colorChoice/white.svg"
-import aoGreen from "../../icon/colorChoice/aoGreen.svg"
-import gray from "../../icon/colorChoice/gray.svg"
-import granite from "../../icon/colorChoice/granite.svg"
-import artyClickPurple from "../../icon/colorChoice/artyClickPurple.svg"
-import black from "../../icon/colorChoice/black.svg"
-import artyClickBlue from "../../icon/colorChoice/artyClickBlue.svg"
-import artyClickRed from "../../icon/colorChoice/artyClickRed.svg"
-import chromeYellow from "../../icon/colorChoice/chromeYellow.svg"
-import pink from "../../icon/colorChoice/pink.svg"
-import chelseaGem from "../../icon/colorChoice/chelseaGem.svg"
-import blue from "../../icon/colorChoice/blue.svg"
-import fullStar from "../../icon/fullStar.svg"
-import emptyStar from "../../icon/emptyStar.svg"
+import deliveryFastTime from "../../../icon/deliveryFastTime.svg"
+import darkDownArrow from "../../../icon/darkDownArrow.svg"
+import yellow from "../../../icon/colorChoice/yellow.svg"
+import rubberDuckyYellow from "../../../icon/colorChoice/rubberDuckyYellow.svg"
+import beige from "../../../icon/colorChoice/beige.svg"
+import white from "../../../icon/colorChoice/white.svg"
+import aoGreen from "../../../icon/colorChoice/aoGreen.svg"
+import gray from "../../../icon/colorChoice/gray.svg"
+import granite from "../../../icon/colorChoice/granite.svg"
+import artyClickPurple from "../../../icon/colorChoice/artyClickPurple.svg"
+import black from "../../../icon/colorChoice/black.svg"
+import artyClickBlue from "../../../icon/colorChoice/artyClickBlue.svg"
+import artyClickRed from "../../../icon/colorChoice/artyClickRed.svg"
+import chromeYellow from "../../../icon/colorChoice/chromeYellow.svg"
+import pink from "../../../icon/colorChoice/pink.svg"
+import chelseaGem from "../../../icon/colorChoice/chelseaGem.svg"
+import blue from "../../../icon/colorChoice/blue.svg"
+import fullStar from "../../../icon/fullStar.svg"
+import emptyStar from "../../../icon/emptyStar.svg"
 
 const BodyFilter = () => {
     return (
         <div className={bodyFilterStyle.filterBody}>
-            <form>
+            <form className={bodyFilterStyle.filterBodyMain}>
                 <dl>
                     <dt>Электроника</dt>
                         <dd>Смартфоны (<span>234</span>)</dd>
