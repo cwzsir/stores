@@ -6,6 +6,8 @@ import BodyFilter from "./components/shop-body/body-filter/Body-filter";
 import ListFilter from "./components/shop-body/list-filter/List-filter";
 import BestSuggestion from "./components/shop-body/best-suggestion/Best-suggestion";
 import BuyingBody from "./components/shop-body/buying-body/Buying-body";
+import AddBanner from "./components/add-banner/AddBanner";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
                     <BuyingBody/>
             </div>
         </div>
+        <AddBanner/>
+        <Footer/>
       </>
   );
 }

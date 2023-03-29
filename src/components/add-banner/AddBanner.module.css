@@ -1,0 +1,37 @@
+.addBannerBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+    background: #F5F5F5;
+    padding: 28px 298px 22px 192px;
+    max-height: 327px;
+}
+
+.addBannerLinks{
+    display: flex;
+    flex-direction: column;
+    margin-right: 112px;
+    font-size: 22px;
+    color: #212121;
+}
+
+.addBannerLinks img{
+    width: 122px;
+    height: 39px;
+}
+
+
+.addBannerLinks div{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.addBannerImage{
+    margin-right: 85px;
+}
+
+.addBannerQRCode{
+    color: #666666;
+}

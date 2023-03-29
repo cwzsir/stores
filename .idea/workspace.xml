@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6785279-d783-45f4-825e-0812e5a57cc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shop-body/list-filter/List-filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shop-body.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop-body.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body-filter/Body-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop-body/body-filter/Body-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body-filter/Body-filter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop-body/body-filter/Body-filter.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shop-body/List-filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shop-body/list-filter/List-filter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop-body/list-filter/List-filter.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon/colorChoice/white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon/favorites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon/favoritesIcon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon/infinityIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon/cashBackIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/add-banner/AddBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/add-banner/AddBanner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +51,7 @@
       <updated>1679473261263</updated>
       <workItem from="1679473265385" duration="8948000" />
       <workItem from="1679504755682" duration="19448000" />
-      <workItem from="1679632615585" duration="58108000" />
+      <workItem from="1679632615585" duration="63224000" />
     </task>
     <servers />
   </component>
